@@ -38,7 +38,7 @@ body{
     color: white;
     font-family: Helvetica;
     padding: 10px;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 0px 0px 10px black;
 }
 #desc img{
     position: absolute;
