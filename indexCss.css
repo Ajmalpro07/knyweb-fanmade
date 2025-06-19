@@ -33,9 +33,9 @@ body{
     border-radius: 10px;
 }
 #desc p{
-    font-size: 24;
+    font-size: 25;
     margin: 0px;
-    color: whitesmoke;
+    color: white;
     font-family: Helvetica;
     padding: 10px;
     text-shadow: 2px 2px 0px black;
@@ -50,7 +50,7 @@ body{
     margin-bottom: -30px;
     margin-right: -30px;
     margin-left: -50%;
-    opacity: 100%;
+    opacity: 70%;
     border-radius: 10px;
 }
 
