@@ -1,0 +1,130 @@
+#titlebar{
+    width:auto;
+    background-color:black;
+    display: flex;
+    gap: 5%;
+    padding: 10px;
+    position: relative;
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+}
+#logo{
+    position: absolute;
+    width: 200px;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+body{
+    background-color:rgb(22, 21, 21);
+}
+
+.container{
+    display: flex;
+    margin: 5%;
+    width: auto;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+}
+.subdiv img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.subdiv{
+    padding: 20px;
+    text-align: center;
+    flex-basis: 35%;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+}
+.subdiv h2{
+    text-shadow: 2px 2px 0px black;
+}
+#giyudiv{
+    background-image: linear-gradient(0deg,#fdbb2d,#b21f1f,#1a2a6c);
+    box-shadow: 0px 0px 30px #fdbb2d;
+}
+#shinobudiv{
+    background-image: linear-gradient(0deg,#FC466B,#3F5EFB);
+    box-shadow: 0px 0px 30px #FC466B;
+}
+#kyojurodiv{
+    background-image: linear-gradient(0deg,#fe8c00,#f83600);
+    box-shadow: 0px 0px 30px #f83600;
+}
+#tengendiv{
+    background-image: linear-gradient(0deg,#F11712,#0099F7);
+    box-shadow: 0px 0px 30px #f11712;
+}
+#igurodiv{
+    background-image: linear-gradient(0deg,#114357,#F29492);
+    box-shadow: 0px 0px 30px #F29492;
+}
+#mitsuridiv{
+    background-image: linear-gradient(0deg,#FF416C,#66ff00);
+    box-shadow: 0px 0px 30px #FF416C;
+}
+#tokitodiv{
+    background-image: linear-gradient(0deg,#360033,#0b8793);
+    box-shadow: 0px 0px 30px #0b8793;
+}
+#sanemidiv{
+    background-image: linear-gradient(0deg,#334d50,#cbcaa5);
+    box-shadow: 0px 0px 30px #cbcaa5;
+}
+#gyomeidiv{
+    background-image: linear-gradient(0deg,#1e130c,#870000);
+    box-shadow: 0px 0px 30px #870000;
+}
+
+#footer{
+    width:auto;
+    background-color:black;
+    gap: 5%;
+    padding: 10px;
+    position: relative;
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+#subfooter{
+    width:auto;
+    display: none;
+    gap: 5%;
+    padding: 10px;
+    position: relative;
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width:720px){
+    
+    #logodiv{
+        text-align: center;
+        background-color: black;
+        width: auto;
+    }
+    #logo{
+        position: relative;
+        width: 150px;
+        z-index: 1;
+        object-fit: cover;
+    }
+    #titlebar{
+        display: none;
+    }
+    #subfooter{
+        display: flex;
+    }
+    
+}
